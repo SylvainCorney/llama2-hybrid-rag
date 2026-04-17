@@ -1,0 +1,11 @@
+streamlit 
+langchain 
+langchain-community 
+chromadb
+sentence-transformers 
+pypdf 
+transformers
+accelerate 
+bitsandbytes
+torch 
+peft

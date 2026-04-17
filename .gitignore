@@ -1,0 +1,28 @@
+# Python virtual environment
+bin/
+lib/
+include/
+share/
+etc/
+pyvenv.cfg
+
+# ChromaDB — rebuilt automatically
+chroma_db/
+
+# Model files — too large for GitHub
+models/
+*.gguf
+*.bin
+
+# PDF files — share separately
+llama2_paper.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Streamlit cache
+.streamlit/

@@ -1,0 +1,4 @@
+FROM ./models/aiResearcher.bin
+PARAMETER temperature 0.7
+PARAMETER repeat_penalty 1.1
+SYSTEM "You are an expert AI research assistant specialising in large language models, particularly Llama2."
