@@ -26,7 +26,7 @@ PDF_PATH = "llama2_paper.pdf"          # Path to the Llama2 research paper PDF
 
 # Local path to the downloaded sentence-transformer embedding model.
 # Using a local path avoids SSL certificate issues when pulling from HuggingFace.
-EMBEDDING_MODEL_PATH = "/Users/sylvaincorney/Projects/LLM/llama2-rag-env/models/all-MiniLM-L6-v2"
+EMBEDDING_MODEL_PATH = "./models/all-MiniLM-L6-v2"
 
 CHROMA_PERSIST_DIR = "./chroma_db"    # Directory where ChromaDB stores vectors on disk
 
